@@ -349,6 +349,8 @@ form .form-header {
 }
 
 @media (max-width: 830px) and (min-width: 625px) {
+
+
     .main img {
         width: 600px;
     }
@@ -381,8 +383,66 @@ form .form-header {
     }
 
     .footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         font-size: 10px;
-        padding-bottom: 10px;
+
     }
 
+    .contact form input {
+        width: 180px;
+        height: 25px;
+    }
+
+
+
+}
+
+
+@media (max-width: 399px) {
+
+    .menu .menu-item {
+        margin: 0px 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .main img {
+        width: 400px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-header .inputBox {
+        padding: 10px;
+    }
+
+    .contact form input {
+        width: 150px;
+        height: 25px;
+    }
+
+    .contact form textarea {
+        width: 320px;
+        padding: 10px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 10px;
+
+    }
 }
